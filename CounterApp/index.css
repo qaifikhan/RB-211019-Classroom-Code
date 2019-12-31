@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+#main-container {
+    display: flex;
+}
+
+#likes-section {
+    width: 65%;
+    height: 100vh;
+    text-align: center;
+    background-color: brown;
+    color: burlywood;
+}
+
+#button-section {
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#likes-section > h2{
+    font-size: 48px;
+}
+
+#likes-count{
+    font-size: 80px;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.likes-count-zoomed {
+    transform: scale(1.2, 1.2);
+}
+
+.btn-counter {
+    width: calc(100% - 32px);
+    margin: 16px;
+    display: block;
+    font-size: 36px;
+    padding: 24px 48px;
+    box-sizing: border-box;
+}
